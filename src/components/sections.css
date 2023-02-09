@@ -1,0 +1,13 @@
+.sections{
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.sections__title{
+  margin: 30px 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 42px;
+  color: #fff;
+}
