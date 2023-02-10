@@ -1,9 +1,14 @@
-import React, { useState } from 'react'
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import React, { useState, useEffect } from 'react'
+import { BrowserRouter as Router, Route, Link, useLocation } from 'react-router-dom';
 import './Navbar.css'
 
 export default function Navbar() {
   const [isOpen, setOpen] = useState(false)
+  const location = useLocation()
+
+  useEffect(() => {
+    setOpen(false)
+  }, [location])
 
   return (
     <nav className={`nav ${isOpen ? 'nav--open' : ''}`}>

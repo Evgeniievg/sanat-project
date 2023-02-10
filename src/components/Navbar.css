@@ -133,6 +133,7 @@ body{
   }
   .nav__items--open {
     display: flex;
+    flex-direction: column;
     width: 60%;
     justify-content: space-between;
     margin-top: 20vh;
