@@ -10,6 +10,14 @@ export default function Navbar() {
     setOpen(false)
   }, [location])
 
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = 'unset'
+    }
+  }, [isOpen])
+
   return (
     <nav className={`nav ${isOpen ? 'nav--open' : ''}`}>
       <Link to='/'><h1 className={`nav__logo ${isOpen ? 'nav__logo--open' : ''}`}>SANAT</h1></Link>
