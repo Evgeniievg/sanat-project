@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/sanat-project/static/css/main.50ee2d8b.css",
+    "main.js": "/sanat-project/static/js/main.10c2ecc3.js",
+    "static/media/assa-3.png": "/sanat-project/static/media/assa-3.393cf00c55ad3af994d7.png",
+    "static/media/ma-yuan__wildlife.png": "/sanat-project/static/media/ma-yuan__wildlife.563ae266c8ab1e293e93.png",
+    "static/media/ma-yuan__scientist.png": "/sanat-project/static/media/ma-yuan__scientist.7845be68be6172eba8fb.png",
+    "static/media/assa-6.png": "/sanat-project/static/media/assa-6.e5b7bd98943b6acbc565.png",
+    "static/media/breugel-calvary.jpg": "/sanat-project/static/media/breugel-calvary.442a7c6487075b4787f0.jpg",
+    "static/media/breigel.jpg": "/sanat-project/static/media/breigel.d0bc02e454968ab16301.jpg",
+    "static/media/breugel-ikar.jpg": "/sanat-project/static/media/breugel-ikar.8e471f7fade3a4cfc41e.jpg",
+    "static/media/ma-yuan__dances.png": "/sanat-project/static/media/ma-yuan__dances.d33721c8195d3224a8b2.png",
+    "static/media/assa-4.png": "/sanat-project/static/media/assa-4.cfe888395326e7ba9ccd.png",
+    "static/media/assa-5.png": "/sanat-project/static/media/assa-5.10abb31e4e91d1e91736.png",
+    "static/media/breugel-port.jpg": "/sanat-project/static/media/breugel-port.422a564a167e50f98773.jpg",
+    "static/media/ma-yuan.jpg": "/sanat-project/static/media/ma-yuan.fadcf364fad96570d46d.jpg",
+    "static/media/ma-yuan__fisherman.png": "/sanat-project/static/media/ma-yuan__fisherman.4c35711c7689044b6a55.png",
+    "static/media/assa-1.png": "/sanat-project/static/media/assa-1.b7ab417939cec626bcf7.png",
+    "static/media/breugel-flight.jpg": "/sanat-project/static/media/breugel-flight.1c629f97e59c7ec9acaf.jpg",
+    "static/media/assa-2.png": "/sanat-project/static/media/assa-2.fbeb9eef0d778f86fab8.png",
+    "static/media/assa.png": "/sanat-project/static/media/assa.fbeb9eef0d778f86fab8.png",
+    "static/media/breugel-babl.jpg": "/sanat-project/static/media/breugel-babl.efed897dddbd99a9db57.jpg",
+    "static/media/breugel-harvest.jpg": "/sanat-project/static/media/breugel-harvest.2a8e63f8cb5b73aa1fdf.jpg",
+    "index.html": "/sanat-project/index.html",
+    "main.50ee2d8b.css.map": "/sanat-project/static/css/main.50ee2d8b.css.map",
+    "main.10c2ecc3.js.map": "/sanat-project/static/js/main.10c2ecc3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50ee2d8b.css",
+    "static/js/main.10c2ecc3.js"
+  ]
+}
