@@ -45,7 +45,7 @@
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
   font-size: 32px;
-  width: 200px;
+  max-width: 400px;
   padding: 5% 0;
   text-align: center;
   text-decoration: none;
@@ -53,18 +53,27 @@
 
 
 @media screen and (max-width: 2560px) {
+  .section__title{
+    font-size: 64px;
+    padding: 3% 7%;
+  }
 }
 
 @media screen and (max-width: 1440px) {
   .section__image{
-    width: 40vw;
-    height: 75vh;
+    width: 35vw;
+    height: 60vh;
+  }
+  .section__title{
+    font-size: 32px;
+    padding: 3% 7%;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .section__image{
     width: 40vw;
+    height: 50vh;
   }
 }
 
@@ -74,7 +83,8 @@
     gap: 10vh;
   }
   .section__image{
-    width: 70vw;
+    width: 60vw;
+    height: 50vh;
   }
 
   .section__title{
@@ -89,6 +99,7 @@
   }
   .section__image{
     width: 80vw;
+    height: 50vh;
   }
 
   .section__title{
@@ -103,6 +114,7 @@
   }
   .section__image{
     width: 80vw;
+    height: 50vh;
   }
 }
 

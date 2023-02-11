@@ -140,30 +140,36 @@
 
 @media only screen and (max-width: 768px) {
   .image__text {
-    width: 150px;
+    max-width: 250px;
   }
   .image__title {
-    font-size: 20px;
+    font-size: 32px;
   }
   .image__subtitle {
-    font-size: 14px;
+    font-size: 20px;
   }
   .image__button {
-    font-size: 10px;
+    font-size: 18px;
+  }
+  .handle__button{
+    display: none;
   }
 }
 
 @media only screen and (max-width: 425px) {
   .image__text {
-    width: 100px;
+    max-width: 200px;
   }
   .image__title {
-    font-size: 16px;
+    font-size: 28px;
   }
   .image__subtitle {
-    font-size: 12px;
+    font-size: 16px;
   }
   .image__button {
-    font-size: 8px;
+    font-size: 12px;
+  }
+  .handle__button{
+    display: none;
   }
 }
