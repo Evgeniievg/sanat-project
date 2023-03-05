@@ -5,7 +5,7 @@ import maYuanScientist from '../assets/ma-yuan__scientist.png';
 import maYuanFisherman from '../assets/ma-yuan__fisherman.png';
 import maYuanWildlife from '../assets/ma-yuan__wildlife.png';
 import maYuanDances from '../assets/ma-yuan__dances.png';
-
+import withScrollReset from '../components/withScrollResset';
 
 
 
@@ -45,4 +45,4 @@ function Mayuan() {
   )
 }
 
-export default Mayuan
+export default withScrollReset(Mayuan)

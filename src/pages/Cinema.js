@@ -1,8 +1,10 @@
 import React from 'react'
 import ArticlesCinema from '../components/ArticlesCinema'
 import cinemaData from '../assets/cinemaData';
+import withScrollReset from '../components/withScrollResset';
 
-function Paintings() {
+
+function Cinema() {
   const cinema = cinemaData.map((item) => (
     <ArticlesCinema image={item.image} title={item.title} link={item.link} isWhite={item.isWhite} subtitle={item.subtitle}/>
   ));
@@ -14,4 +16,4 @@ function Paintings() {
   )
 }
 
-export default Paintings
+export default withScrollReset(Cinema)

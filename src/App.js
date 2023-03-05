@@ -12,11 +12,12 @@ import Paintings from './pages/Paintings';
 import Cinema from './pages/Cinema';
 
 function App() {
+
   return (
     <>
       <Router>
         <Navbar />
-        <Routes>
+        <Routes basename={process.env.PUBLIC_URL}>
           <Route exact path="/" element={<Home />} />
           <Route path="/content" element={<Content />} />
           <Route path="/contact" element={<Contact />} />

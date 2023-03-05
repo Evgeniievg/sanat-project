@@ -6,6 +6,8 @@ import assaThird from '../assets/assa-3.png';
 import assaFour from '../assets/assa-4.png';
 import assaFive from '../assets/assa-5.png';
 import assaSix from '../assets/assa-6.png';
+import withScrollReset from '../components/withScrollResset';
+
 
 
 
@@ -49,4 +51,4 @@ function Assa() {
   )
 }
 
-export default Assa
+export default withScrollReset(Assa)

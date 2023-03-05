@@ -5,6 +5,8 @@ import sectionData from '../assets/sectionData';
 import Sections from '../components/Sections';
 import Cards from '../components/Cards';
 import data from '../assets/data';
+import withScrollReset from '../components/withScrollResset';
+
 
 function Home() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -46,4 +48,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default withScrollReset (Home);

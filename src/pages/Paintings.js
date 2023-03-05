@@ -1,6 +1,8 @@
 import React from 'react'
 import ArticlesPaintings from '../components/ArticlesPaintings'
 import paintingsData from '../assets/paintingsData';
+import withScrollReset from '../components/withScrollResset';
+
 
 function Paintings() {
   const paintings = paintingsData.map((item) => (
@@ -14,4 +16,4 @@ function Paintings() {
   )
 }
 
-export default Paintings
+export default withScrollReset(Paintings)

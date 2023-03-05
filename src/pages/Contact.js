@@ -1,5 +1,7 @@
 import React from 'react'
 import './contact.css'
+import withScrollReset from '../components/withScrollResset';
+
 
 function Contact() {
   return (
@@ -8,4 +10,4 @@ function Contact() {
   )
 }
 
-export default Contact
+export default withScrollReset(Contact)

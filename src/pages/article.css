@@ -22,7 +22,7 @@
   margin: auto;
   display: block;
   width: 60%;
-  line-height: 1.2;
+  line-height: 1.4;
   margin-bottom: 25px;
 }
 
@@ -86,6 +86,23 @@
   .image__subtext {
     font-size: 24px;
     max-width: 40%;
+  }
+}
+
+@media only screen and (min-width: 1279px) and (max-width: 1440px) {
+  .article__title {
+    font-size: 56px;
+  }
+  .article__text {
+    font-size: 26px;
+    width: 60%;
+  }
+  .article__image {
+    max-width: 70%;
+  }
+  .image__subtext {
+    font-size: 20px;
+    max-width: 50%;
   }
 }
 

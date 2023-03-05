@@ -1,6 +1,7 @@
 import React from 'react'
 import Cards from '../components/Cards'
 import sectionData from '../assets/sectionData';
+import withScrollReset from '../components/withScrollResset';
 import './content.css'
 import { Link } from 'react-router-dom';
 
@@ -18,4 +19,4 @@ function Content() {
   )
 }
 
-export default Content
+export default withScrollReset (Content)

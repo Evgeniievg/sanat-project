@@ -6,8 +6,7 @@ import breugelCalvary from '../assets/breugel-calvary.jpg';
 import breugelFlight from '../assets/breugel-flight.jpg';
 import breugelIkar from '../assets/breugel-ikar.jpg';
 import breugelHarvest from '../assets/breugel-harvest.jpg';
-
-
+import withScrollReset from '../components/withScrollResset';
 
 
 
@@ -80,4 +79,4 @@ function Breigel() {
   )
 }
 
-export default Breigel
+export default withScrollReset(Breigel)
