@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sanat-project/static/css/main.50ee2d8b.css",
-    "main.js": "/sanat-project/static/js/main.10c2ecc3.js",
+    "main.css": "/sanat-project/static/css/main.0c7cb792.css",
+    "main.js": "/sanat-project/static/js/main.33d91efd.js",
     "static/media/assa-3.png": "/sanat-project/static/media/assa-3.393cf00c55ad3af994d7.png",
     "static/media/ma-yuan__wildlife.png": "/sanat-project/static/media/ma-yuan__wildlife.563ae266c8ab1e293e93.png",
     "static/media/ma-yuan__scientist.png": "/sanat-project/static/media/ma-yuan__scientist.7845be68be6172eba8fb.png",
@@ -22,11 +22,11 @@
     "static/media/breugel-babl.jpg": "/sanat-project/static/media/breugel-babl.efed897dddbd99a9db57.jpg",
     "static/media/breugel-harvest.jpg": "/sanat-project/static/media/breugel-harvest.2a8e63f8cb5b73aa1fdf.jpg",
     "index.html": "/sanat-project/index.html",
-    "main.50ee2d8b.css.map": "/sanat-project/static/css/main.50ee2d8b.css.map",
-    "main.10c2ecc3.js.map": "/sanat-project/static/js/main.10c2ecc3.js.map"
+    "main.0c7cb792.css.map": "/sanat-project/static/css/main.0c7cb792.css.map",
+    "main.33d91efd.js.map": "/sanat-project/static/js/main.33d91efd.js.map"
   },
   "entrypoints": [
-    "static/css/main.50ee2d8b.css",
-    "static/js/main.10c2ecc3.js"
+    "static/css/main.0c7cb792.css",
+    "static/js/main.33d91efd.js"
   ]
 }
