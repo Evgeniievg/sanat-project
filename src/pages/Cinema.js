@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import ArticlesCinema from '../components/ArticlesCinema'
 import cinemaData from '../assets/cinemaData';
-import withScrollReset from '../components/withScrollResset';
+
 
 
 function Cinema() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const cinema = cinemaData.map((item) => (
     <ArticlesCinema image={item.image} title={item.title} link={item.link} isWhite={item.isWhite} subtitle={item.subtitle}/>
   ));
@@ -16,4 +19,4 @@ function Cinema() {
   )
 }
 
-export default withScrollReset(Cinema)
+export default Cinema;
