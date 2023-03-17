@@ -1,0 +1,159 @@
+.article{
+  background-color: white;
+  width: 100%;
+  margin-top: 11vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 100px;
+}
+
+.article__title{
+  margin: 70px auto;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 52px;
+}
+
+.article__text{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  margin: auto;
+  display: block;
+  width: 60%;
+  line-height: 1.4;
+  margin-bottom: 25px;
+}
+
+.image__container{
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.article__image{
+  margin: auto;
+  max-width: 60%;
+  max-height: 90vh;
+  border-radius: 10px;
+}
+
+.image__subtext{
+  display: block;
+  max-width: 30%;
+  margin: 10px auto;
+  position: relative;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  line-height: 1.2;
+  font-style: italic;
+}
+
+@media only screen and (min-width: 2560px) {
+  .article__title {
+    font-size: 88px;
+  }
+  .article__text {
+    font-size: 36px;
+    width: 50%;
+  }
+  .article__image {
+    max-width: 50%;
+  }
+  .image__subtext {
+    font-size: 28px;
+    max-width: 30%;
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1824px) {
+  .article__title {
+    font-size: 72px;
+  }
+  .article__text {
+    font-size: 32px;
+    width: 60%;
+  }
+  .article__image {
+    max-width: 60%;
+  }
+  .image__subtext {
+    font-size: 24px;
+    max-width: 40%;
+  }
+}
+
+@media only screen and (min-width: 1279px) and (max-width: 1440px) {
+  .article__title {
+    font-size: 56px;
+  }
+  .article__text {
+    font-size: 26px;
+    width: 60%;
+  }
+  .article__image {
+    max-width: 70%;
+  }
+  .image__subtext {
+    font-size: 20px;
+    max-width: 50%;
+  }
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+  .article__title {
+    font-size: 56px;
+  }
+  .article__text {
+    font-size: 28px;
+    width: 70%;
+  }
+  .article__image {
+    max-width: 70%;
+  }
+  .image__subtext {
+    font-size: 20px;
+    max-width: 50%;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .article__title {
+    font-size: 40px;
+  }
+  .article__text {
+    font-size: 20px;
+    width: 90%;
+  }
+  .article__image {
+    max-width: 90%;
+  }
+  .image__subtext {
+    font-size: 16px;
+    max-width: 90%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .article__title {
+    font-size: 32px;
+  }
+  .article__text {
+    font-size: 18px;
+  }
+  .article__image {
+    max-width: 90%;
+  }
+  .image__subtext {
+    font-size: 14px;
+  }
+}
+
